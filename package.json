@@ -1,8 +1,8 @@
 {
-  "name": "zstore",
+  "name": "namespace-store",
   "version": "0.1.0",
   "description": "a plugin of namespace store of localStorage and sessionStorage",
-  "main": "dist/zstore.esm.js",
+  "main": "dist/namespaceStore.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env rollup -c -w",

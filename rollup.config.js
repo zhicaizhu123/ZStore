@@ -11,11 +11,11 @@ suffix = isEsm ? ".esm" + suffix : suffix;
 const config = {
   input: "src/index.js",
   output: {
-    file: `dist/zstore${suffix}.js`,
+    file: `dist/namespaceStore${suffix}.js`,
     format: isEsm ? "es" : "umd",
-    name: "zstore",
+    name: "namespaceStore",
     globals: {
-      zstore: "zstore"
+      zstore: "namespaceStore"
     }
   },
   plugins: [
